@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pokku:war">
+    <output-path>$PROJECT_DIR$/pokku/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pokku</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pokku-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pokku:war exploded" />
+    </root>
+  </artifact>
+</component>
